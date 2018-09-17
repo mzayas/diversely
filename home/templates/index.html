@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Diversely</h1>
+    <p>A new way to understand and implement feedback. Subscribe for updates</p>
+    <form>
+      <div class="form-row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="col-md-3">
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="btn btn-outline-primary">
+          Submit
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
