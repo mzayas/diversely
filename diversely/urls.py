@@ -2,7 +2,7 @@ from django.urls import path
 from django.contrib import admin
 admin.autodiscover()
 
-import home.views, diagnostics.views, tools.views, accounts.views
+import home.views, accounts.views
 
 
 # Examples:
@@ -11,9 +11,8 @@ import home.views, diagnostics.views, tools.views, accounts.views
 
 urlpatterns = [
     path('', home.views.index, name='index'),
-    path('tools', tools.views.tools, name='tools'),
-    path('diagnostics', diagnostics.views.diagnostics, name='diagnostics'),
-    path('register', accounts.views.RegisterView, name='register'),
+    path('faq', home.views.faq, name='faq'),
+    path('register', accounts.views.register, name='register'),
     path('login', accounts.views.login, name='login'),
     path('admin/', admin.site.urls),
 ]

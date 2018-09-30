@@ -1,6 +1,151 @@
 {% extends "base.html" %}
-{% load staticfiles %}
-
 {% block content %}
+
+<main>
+{% load static %}
+        <!-- Spotlight -->
+        <section class="slice slice-xl bg-custom bg-cover bg-size--contain" style="padding-bottom: 250px; background-image: url('{% static 'img/backgrounds/clouds-bottom.png' %}'); background-position: center bottom;">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="pt-lg-md pb-lg-md text-center">
+                            <h2 class="heading h1 text-white mb-3">Unleash your creativity</h2>
+                            <p class="lead lh-180 text-white">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+                            <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
+                              <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                              <span class="btn-inner--text">Learn more</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Spotlight -->
+
+        <section class="slice slice-lg pt-lg">
+                    <div class="container">
+                        <div class="row row-grid">
+                            <div class="col-lg-3 mt--200">
+                                <div data-animate-hover="1">
+                                    <div class="card shadow-sm animate-this">
+                                        <div class="card-body py-5 px-lg-5">
+                                            <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/code.png' %}" style="width: 70px;">
+                                            <h5 class="h5 mt-4">service 1</h5>
+                                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mt--200">
+                                <div data-animate-hover="1">
+                                    <div class="card shadow-sm animate-this">
+                                        <div class="card-body py-5 px-lg-5">
+                                            <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/google-mobile.png' %}" style="width: 70px;">
+                                            <h5 class="h5 mt-4">service 2</h5>
+                                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mt--200">
+                                <div data-animate-hover="1">
+                                    <div class="card shadow-sm animate-this">
+                                        <div class="card-body py-5 px-lg-5">
+                                            <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/paint-palette.png' %}" style="width: 70px;">
+                                            <h5 class="h5 mt-4">service 3</h5>
+                                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 mt--200">
+                                <div data-animate-hover="1">
+                                    <div class="card shadow-sm animate-this">
+                                        <div class="card-body py-5 px-lg-5">
+                                            <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/accounting.png' %}" style="width: 70px;">
+                                            <h5 class="h5 mt-4">service 4</h5>
+                                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="#" class="link font-weight-bold" data-link="1">Find out more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+        <section id="sct_contact_form" class="slice slice-lg" data-delimiter-before="1">
+                    <div class="container">
+                        <div class="row row-grid align-items-center">
+                            <div class="col-lg-6">
+                                <h3>Contact us</h3>
+                                <p class="lead">If there's something we can help you with, jut let us know. We'll be more than happy to offer you our help</p>
+                                <form class="mt-5">
+                                    <div class="form-group">
+                                        <label class="sr-only">Your name</label>
+                                        <input class="form-control form-control-lg" placeholder="Your name" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Email address</label>
+                                        <input class="form-control form-control-lg" placeholder="Email address" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Type your message</label>
+                                        <textarea class="form-control form-control-lg textarea-autosize" rows="5" placeholder="Type your message"></textarea>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-darker btn-icon btn-circle btn-translate--hover">
+                                      <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                                      <span class="btn-inner--text">Send message</span></a>
+                                </form>
+                            </div>
+
+                            <div class="col-lg-5 ml-lg-auto">
+                                <h3>595 West Delavan Avenue<br>Buffalo NY, 14222</h3>
+                                <p class="lead my-4">E: <a href="#">support@diversely.nyc</a>
+                                    <br>T: 716-727-6464</p>
+                                <p>Diversely is the first-of-its-kind platform that facilitates crucial innovative processes like feedback and problem solving.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+        <section class="slice slice-lg bg-custom">
+            <span class="tongue tongue-top"><i class="fas fa-angle-down"></i></span>
+            <div class="container">
+                <div class="mb-md text-center">
+                    <h3 class="heading h3 text-white">Subscribe for updates</h3>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control border-0" placeholder="Your email address">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                  <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
+                                    <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                                    <span class="btn-inner--text">Subcribe</span></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+
+
+    </main>
+
 
 {% endblock %}
