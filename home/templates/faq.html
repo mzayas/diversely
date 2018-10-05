@@ -4,21 +4,23 @@
 <main>
 {% load static %}
         <!-- Spotlight -->
-        <section class="slice slice-lg bg-custom">
-            <div class="container pt-lg">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2 class="display-4 text-white">Faq</h2>
-                        <h5 class="mb-4 text-white">Frequently Asked Questions</h5>
+        <section class="slice slice-xl bg-custom bg-cover bg-size--contain" style="padding-bottom: 250px; background-image: url('{% static 'img/backgrounds/clouds-bottom.png' %}'); background-position: center bottom;">
+            <div class="container">
+                <div class="row row-grid align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="pt-lg-md pb-lg-md text-center">
+                            <h2 class="heading h1 text-white mb-3">Frequently Asded Questions</h2>
+                            <p class="lead lh-180 text-white">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+                            <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
+                              <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                              <span class="btn-inner--text">Learn more</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a href="#sct-faq" class="tongue tongue-bottom tongue-white scroll-me">
-                <i class="fas fa-angle-down"></i>
-            </a>
         </section>
 
-        <section class="slice slice-lg" id="sct-faq">
+        <section class="slice slice-sm" id="sct-faq">
             <div class="container">
                 <div class="row row-grid">
                     <div class="col-lg-3">

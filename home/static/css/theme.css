@@ -94,7 +94,7 @@ body
 
     text-align: left;
 
-    color: #6c7686;
+    color: #py;
     background-color: #fff;
 }
 
@@ -7663,7 +7663,7 @@ button.close
 
 .bg-custom
 {
-    background-color: #455393 !important;
+    background-color: #00aedb !important;
 }
 
 .bg-primary
