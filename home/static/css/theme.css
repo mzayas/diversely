@@ -3189,7 +3189,7 @@ fieldset:disabled a.btn
 .btn-light:hover
 {
     color: #212529;
-    border-color: #b1bbc4;
+    border-color: #000000;
     background-color: #b8c1ca;
 }
 .btn-light:focus,
@@ -7668,7 +7668,7 @@ button.close
 
 .bg-primary
 {
-    background-color: #510fa8 !important;
+    background-color: #061283 !important;
 }
 
 a.bg-primary:hover,
@@ -14276,7 +14276,7 @@ button.bg-lighter:focus
 
 [data-accordion='1'] .card-header[aria-expanded='true'] .heading
 {
-    color: #510fa8;
+    color: #000000;
 }
 
 .alert
@@ -15527,14 +15527,14 @@ button.bg-lighter:focus
 {
     padding: .5rem 0;
 
-    color: #6c7686;
+    color: #000000;
 }
 
 .card-pricing.popular
 {
     z-index: 1;
 
-    border: 3px solid #510fa8 !important;
+    border: 3px solid #000000 !important;
 }
 
 @media (min-width: 992px)
@@ -17567,7 +17567,7 @@ Styled shaped wrappers for displaying code and images in a more stylish manner
     padding-top: .25rem;
     padding-bottom: .25rem;
 
-    color: #6c7686;
+    color: #000000;
 }
 .list-unstyled .list-link:hover
 {

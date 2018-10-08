@@ -26,10 +26,10 @@
     <link type="text/css" href="{% static 'css/theme.css' %}" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-white">
+<body class="bg-dark">
     <header class="header-transparent" id="header-main">
       <!-- Topbar -->
-              <div id="navbar-top-main" class="navbar-top  navbar-dark bg-custom border-bottom">
+              <div id="navbar-top-main" class="navbar-top navbar-dark bg-dark">
                   <div class="container">
                       <div class="navbar-nav align-items-center">
                           <div class="d-none d-lg-inline-block">
@@ -58,9 +58,6 @@
                                       <a class="nav-link" href="#">Support</a>
                                   </li>
                                   <li class="nav-item">
-                                      <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-                                  </li>
-                                  <li class="nav-item">
                                       <a class="nav-link" href="#"><i class="fas fa-user-circle"></i></a>
                                   </li>
                               </ul>
@@ -72,7 +69,7 @@
 
               <!-- Main navbar -->
 
-              <nav class="navbar navbar-main navbar-expand-lg navbar-fixed-top navbar-transparent navbar-dark bg-custom" id="navbar-main">
+              <nav class="navbar navbar-main navbar-expand-lg navbar-fixed-top navbar-dark bg-dark" id="navbar-main">
                   <div class="container">
                       <a class="navbar-brand mr-lg-5" href="/">
                           <!--- <img src="{% static 'img/brand/white.png' %}" alt="Footer logo" style="height: 70px;"> -->
@@ -88,39 +85,35 @@
                                   <a class="nav-link" href="/">Home</a>
                               </li>
                               <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                                  <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-arrow py-0">
+                                  <a class="nav-link" href="services" data-toggle="#" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <!---  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-arrow py-0">
                                       <div class="list-group">
-                                          <a href="#" class="list-group-item list-group-item-action">
+                                          <a href="services" class="list-group-item list-group-item-action">
                                               <div class="media d-flex align-items-center">
-                                                  <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/code.png' %}" class="img-saturate" style="width: 50px;">
                                                   <div class="media-body ml-3">
                                                       <h6 class="mb-1">Problem Solving</h6>
                                                       <p class="mb-0">A great point to start from.</p>
                                                   </div>
                                               </div>
                                           </a>
-                                          <a href="#" class="list-group-item list-group-item-action">
+                                          <a href="services" class="list-group-item list-group-item-action">
                                               <div class="media d-flex align-items-center">
-                                                  <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/google-mobile.png' %}" class="img-saturate" style="width: 50px;">
                                                   <div class="media-body ml-3">
                                                       <h6 class="mb-1">Service 2</h6>
                                                       <p class="mb-0">Build your website with these demos.</p>
                                                   </div>
                                               </div>
                                           </a>
-                                          <a href="#" class="list-group-item list-group-item-action">
+                                          <a href="services" class="list-group-item list-group-item-action">
                                               <div class="media d-flex align-items-center">
-                                                  <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/paint-palette.png' %}" class="img-saturate" style="width: 50px;">
                                                   <div class="media-body ml-3">
                                                       <h6 class="mb-1">Service 3</h6>
                                                       <p class="mb-0">Account management made easy.</p>
                                                   </div>
                                               </div>
                                           </a>
-                                          <a href="#" class="list-group-item list-group-item-action">
+                                          <a href="services" class="list-group-item list-group-item-action">
                                               <div class="media d-flex align-items-center">
-                                                  <img alt="Image placeholder" src="{% static 'img/icons/dusk/png/accounting.png' %}" class="img-saturate" style="width: 50px;">
                                                   <div class="media-body ml-3">
                                                       <h6 class="mb-1">Service 4</h6>
                                                       <p class="mb-0">Explore the full ecommerce website flow.</p>
@@ -128,10 +121,10 @@
                                               </div>
                                           </a>
                                       </div>
-                                  </div>
+                                  </div> -->
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#" role="button">About</a>
+                                  <a class="nav-link" href="about" role="button">About</a>
                               </li>
                           </ul>
 
@@ -140,12 +133,11 @@
                                   <a class="nav-link" href="faq">Faq</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Blog</a>
+                                  <a class="nav-link" href="blog">Blog</a>
                               </li>
                               <li class="nav-item mr-0">
-                                  <a href="#" class="nav-link d-lg-none">Free consultation</a>
-                                  <a href="#" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex">
-                                      <span class="btn-inner--icon"><i class="fas fa-shopping-cart"></i></span>
+                                  <a href="consultation" class="nav-link d-lg-none">Free consultation</a>
+                                  <a href="consultation" class="btn btn-sm btn-white btn-circle btn-icon d-none d-lg-inline-flex">
                                       <span class="btn-inner--text">Free consultation</span>
                                   </a>
                               </li>
@@ -159,7 +151,7 @@
 
     {% block content %}{% endblock %}
 
-    <footer class="footer footer-dark bg-custom">
+    <footer class="footer footer-dark bg-dark">
         <div class="container">
             <div class="row pt-md">
                 <div class="col-lg-4 mb-5 mb-lg-0">
@@ -173,7 +165,7 @@
                 <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
                     <h6 class="heading mb-3">About</h6>
                     <ul class="list-unstyled text-small">
-                        <li><a href="#">Services</a>
+                        <li><a href="services">Services</a>
                         </li>
                         <li><a href="#">Contact</a>
                         </li>

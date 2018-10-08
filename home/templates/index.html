@@ -1,25 +1,113 @@
 {% extends "base.html" %}
 {% block content %}
 
-<main>
 {% load static %}
         <!-- Spotlight -->
-        <section class="slice slice-xl bg-custom bg-cover bg-size--contain" style="padding-bottom: 250px; background-image: url('{% static 'img/backgrounds/clouds-bottom.png' %}'); background-position: center bottom;">
-            <div class="container">
-                <div class="row row-grid align-items-center justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="pt-lg-md pb-lg-md text-center">
-                            <h2 class="heading h1 text-white mb-3">Unleash your creativity</h2>
-                            <p class="lead lh-180 text-white">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-                            <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
-                              <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
-                              <span class="btn-inner--text">Learn more</span></a>
+        <section class="slice slice-xs pb-xs bg-dark">
+
+        </section>
+        <section class="slice slice-xl pb-md">
+                    <div class="container pt-xs-xs">
+                        <div class="row row-grid justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h2 class="heading h1 mb-4">Diversely</h2>
+                                <p class="lead lh-180">some tagling goes here</p>
+                                <div class="mt-5">
+                                    <a href="#" class="btn btn-light btn-circle bg-light px-5 mr-lg-4">Contact us</a>
+                                    <a href="blog" class="btn btn-outline-dark btn-icon btn-circle px-4" data-fancybox>
+                                        <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                                        <span class="btn-inner--text">Visit our blog</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Spotlight -->
+                </section>
+
+                <section class="slice slice-lg bg-dark">
+                    <span class="tongue tongue-top"><i class="fas fa-angle-up"></i></span>
+                    <div class="container">
+                        <div class="mb-md text-center">
+                            <h3 class="heading h2 text-white">We help businesses grow</h3>
+                            <div class="fluid-paragraph mt-3">
+                                <p class="lead text-white">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <div class="table-responsive-lg">
+                                    <table class="table table-hover table-scale--hover table-cards align-items-center">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    <div class="media align-items-center">
+                                                        <span class="avatar avatar-lg bg-pink rounded mr-4">FD</span>
+                                                        <div class="media-body">
+                                                            <a href="#" class="h5 mb-0">Front End Developer</a>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <span class="h6">Full time</span>
+                                                </td>
+                                                <td><i class="fas fa-map-marker mr-3"></i><span class="h6">San Francisco, US</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="table-divider"></tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <div class="media align-items-center">
+                                                        <span class="avatar avatar-lg bg-purple rounded mr-4">SD</span>
+                                                        <div class="media-body">
+                                                            <a href="#" class="h5 mb-0">Senior Back End Developer</a>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <span class="h6">Part time</span>
+                                                </td>
+                                                <td><i class="fas fa-map-marker mr-3"></i><span class="h6">San Francisco, US</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="table-divider"></tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <div class="media align-items-center">
+                                                        <span class="avatar avatar-lg bg-orange rounded mr-4">UX</span>
+                                                        <div class="media-body">
+                                                            <a href="#" class="h5 mb-0">UI/UX Designer with experience</a>
+                                                        </div>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <span class="h6">Full time</span>
+                                                </td>
+                                                <td><i class="fas fa-map-marker mr-3"></i><span class="h6">Bucharest, RO</span>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a href="#" class="text-white"><i class="fas fa-angle-right mr-2"></i>View all job openings</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <!---  <section class="slice slice-lg">
+                  <div class="container">
+                      <div class="mb-md text-center">
+                          <h3 class="heading h2">Working with companies wolrdwide</h3>
+                          <div class="fluid-paragraph mt-3">
+                              <p class="lead">Start building fast, beautiful and modern looking websites in no time using our theme.</p>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+        <!-- Spotlight
 
         <section class="slice slice-lg pt-lg">
                     <div class="container">
@@ -74,7 +162,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
 
 
         <section id="sct_contact_form" class="slice slice-lg" data-delimiter-before="1">
@@ -114,7 +202,7 @@
 
 
 
-        <section class="slice slice-lg bg-custom">
+        <section class="slice slice-lg bg-dark">
             <span class="tongue tongue-top"><i class="fas fa-angle-down"></i></span>
             <div class="container">
                 <div class="mb-md text-center">
@@ -144,8 +232,6 @@
 
         <!-- Call to action -->
 
-
-    </main>
 
 
 {% endblock %}
