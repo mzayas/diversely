@@ -84,44 +84,8 @@
                               <li class="nav-item ">
                                   <a class="nav-link" href="/">Home</a>
                               </li>
-                              <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                                  <a class="nav-link" href="services" data-toggle="#" aria-haspopup="true" aria-expanded="false">Services</a>
-                                <!---  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-arrow py-0">
-                                      <div class="list-group">
-                                          <a href="services" class="list-group-item list-group-item-action">
-                                              <div class="media d-flex align-items-center">
-                                                  <div class="media-body ml-3">
-                                                      <h6 class="mb-1">Problem Solving</h6>
-                                                      <p class="mb-0">A great point to start from.</p>
-                                                  </div>
-                                              </div>
-                                          </a>
-                                          <a href="services" class="list-group-item list-group-item-action">
-                                              <div class="media d-flex align-items-center">
-                                                  <div class="media-body ml-3">
-                                                      <h6 class="mb-1">Service 2</h6>
-                                                      <p class="mb-0">Build your website with these demos.</p>
-                                                  </div>
-                                              </div>
-                                          </a>
-                                          <a href="services" class="list-group-item list-group-item-action">
-                                              <div class="media d-flex align-items-center">
-                                                  <div class="media-body ml-3">
-                                                      <h6 class="mb-1">Service 3</h6>
-                                                      <p class="mb-0">Account management made easy.</p>
-                                                  </div>
-                                              </div>
-                                          </a>
-                                          <a href="services" class="list-group-item list-group-item-action">
-                                              <div class="media d-flex align-items-center">
-                                                  <div class="media-body ml-3">
-                                                      <h6 class="mb-1">Service 4</h6>
-                                                      <p class="mb-0">Explore the full ecommerce website flow.</p>
-                                                  </div>
-                                              </div>
-                                          </a>
-                                      </div>
-                                  </div> -->
+                              <li class="nav-item">
+                                  <a class="nav-link" href="services" role="button">Services</a>
                               </li>
                               <li class="nav-item">
                                   <a class="nav-link" href="about" role="button">About</a>
@@ -150,7 +114,33 @@
     </header>
 
     {% block content %}{% endblock %}
+    <section class="slice slice-lg bg-dark">
+        <span class="tongue tongue-top"><i class="fas fa-angle-down"></i></span>
+        <div class="container">
+            <div class="mb-md text-center">
+                <h3 class="heading h3 text-white">Subscribe for updates</h3>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0" placeholder="Your email address">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                              <a href="#" class="btn btn-outline-white btn-icon btn-circle btn-translate--hover">
+                                <span class="btn-inner--icon"><i class="fas fa-angle-right"></i></span>
+                                <span class="btn-inner--text">Subcribe</span></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer footer-dark bg-dark">
         <div class="container">
             <div class="row pt-md">

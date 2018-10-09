@@ -2,7 +2,7 @@ from django.urls import path
 from django.contrib import admin
 admin.autodiscover()
 
-import home.views, accounts.views
+import home.views, accounts.views, jobs.views
 
 
 # Examples:
