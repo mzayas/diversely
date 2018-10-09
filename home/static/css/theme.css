@@ -3189,7 +3189,7 @@ fieldset:disabled a.btn
 .btn-light:hover
 {
     color: #212529;
-    border-color: #000000;
+    border-color: #b1bbc4;
     background-color: #b8c1ca;
 }
 .btn-light:focus,

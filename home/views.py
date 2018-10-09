@@ -13,11 +13,11 @@ def faq(request):
 def about(request):
     return render(request, 'about.html')
 
-def blog(request):
-    return render(request, 'blog.html')
-
 def services(request):
     return render(request, 'services.html')
+
+def blog(request):
+    return render(request, 'blog.html')
 
 def consultation(request):
     return render(request, 'consultation.html')
